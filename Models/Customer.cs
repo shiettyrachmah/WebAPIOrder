@@ -8,6 +8,7 @@ namespace InspiroOrder.Models
         [Key]
         public int CustomerID { get; set; }
         [Column(TypeName ="VARCHAR(30)")]
+
         public string Name { get; set; }
         [Column(TypeName = "VARCHAR(100)")]
         public string Addess { get; set; }
